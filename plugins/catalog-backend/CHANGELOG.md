@@ -1,5 +1,11 @@
 # @backstage/plugin-catalog-backend
 
+## 0.6.1
+
+### Patch Changes
+
+- fb53eb7cb: Don't respond to a request twice if an entity has not been found.
+
 ## 0.6.0
 
 ### Minor Changes

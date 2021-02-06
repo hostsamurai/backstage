@@ -1,5 +1,27 @@
 # example-app
 
+## 0.2.15
+
+### Patch Changes
+
+- Updated dependencies [b3f0c3811]
+- Updated dependencies [9ec66c345]
+- Updated dependencies [41af18227]
+- Updated dependencies [b288a291e]
+- Updated dependencies [c5ab91ce3]
+- Updated dependencies [64b9efac2]
+- Updated dependencies [7716d1d70]
+- Updated dependencies [8f3443427]
+- Updated dependencies [accdfeb30]
+  - @backstage/plugin-search@0.3.0
+  - @backstage/plugin-register-component@0.2.9
+  - @backstage/plugin-techdocs@0.5.6
+  - @backstage/plugin-pagerduty@0.2.8
+  - @backstage/plugin-newrelic@0.2.5
+  - @backstage/plugin-kubernetes@0.3.9
+  - @backstage/plugin-kafka@0.2.2
+  - @backstage/plugin-gitops-profiles@0.2.5
+
 ## 0.2.14
 
 ### Patch Changes

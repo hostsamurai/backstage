@@ -1,5 +1,11 @@
 # @backstage/plugin-pagerduty
 
+## 0.2.8
+
+### Patch Changes
+
+- b288a291e: Migrated to new composability API, exporting the plugin instance as `pagerDutyPlugin`, entity card as `EntityPagerDutyCard`, and entity conditional as `isPagerDutyAvailable`.
+
 ## 0.2.7
 
 ### Patch Changes

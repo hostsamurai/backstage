@@ -1,5 +1,11 @@
 # @backstage/plugin-gitops-profiles
 
+## 0.2.5
+
+### Patch Changes
+
+- accdfeb30: Migrated to new composability API, exporting the plugin instance as `gitopsProfilesPlugin` and pages as `GitopsProfilesClusterListPage`, `GitopsProfilesClusterPage`, and `GitopsProfilesCreatePage`.
+
 ## 0.2.4
 
 ### Patch Changes

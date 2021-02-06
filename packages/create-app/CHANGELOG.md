@@ -1,5 +1,17 @@
 # @backstage/create-app
 
+## 1.0.0
+
+### Patch Changes
+
+- Updated dependencies [b3f0c3811]
+- Updated dependencies [fb53eb7cb]
+- Updated dependencies [41af18227]
+- Updated dependencies [8f3443427]
+  - @backstage/plugin-search@0.3.0
+  - @backstage/plugin-catalog-backend@0.6.1
+  - @backstage/plugin-techdocs@0.5.6
+
 ## 0.3.8
 
 ### Patch Changes
