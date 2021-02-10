@@ -19,6 +19,8 @@ import { createDevApp } from '@backstage/dev-utils';
 import { ApiExplorerPage, apiDocsPlugin } from '../src/plugin';
 import { catalogApiRef } from '@backstage/plugin-catalog-react';
 import petstoreApiEntity from './example-api.yaml';
+import streetlightsApiEntity from './example-api-with-custom-fields.yaml';
+import { customColumns, customFilters } from './customizations';
 
 createDevApp()
   .registerApi({
@@ -27,10 +29,16 @@ createDevApp()
     factory: () =>
       (({
         async getEntities() {
-          return { items: [petstoreApiEntity] };
+          return { items: [petstoreApiEntity, streetlightsApiEntity] };
         },
       } as unknown) as typeof catalogApiRef.T),
   })
   .registerPlugin(apiDocsPlugin)
   .addPage({ element: <ApiExplorerPage /> })
+  .addPage({
+    path: '/api-docs/custom',
+    element: (
+      <ApiExplorerPage columns={customColumns} filters={customFilters} />
+    ),
+  })
   .render();
