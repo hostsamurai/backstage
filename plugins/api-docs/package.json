@@ -1,18 +1,19 @@
 {
   "name": "@backstage/plugin-api-docs",
-  "version": "0.5.0",
+  "version": "0.5.0-dev",
   "main": "src/index.ts",
   "types": "src/index.ts",
   "license": "Apache-2.0",
   "publishConfig": {
     "access": "public",
     "main": "dist/index.esm.js",
-    "types": "dist/index.d.ts"
+    "types": "dist/index.d.ts",
+    "registry": "https://public-npm-virtual.artylab.expedia.biz/api/npm/public-npm-virtual/"
   },
   "homepage": "https://backstage.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/backstage/backstage",
+    "url": "https://github.com/hostsamurai/backstage",
     "directory": "plugins/api-docs"
   },
   "keywords": [
